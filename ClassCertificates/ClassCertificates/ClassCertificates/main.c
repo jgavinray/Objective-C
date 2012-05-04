@@ -16,11 +16,8 @@ void congratulateStudent(char *student, char *course, int numDays)
 int main(int argc, const char * argv[])
 {
     congratulateStudent("Gavin", "iOS", 5);
-    sleep(5);
     congratulateStudent("Gavin", "Objective-C", 2);
-    sleep(2);
     congratulateStudent("Dennie", "Python", 5);
-    sleep(5);
     congratulateStudent("Simon", "C#", 5);
     
     return 0;
