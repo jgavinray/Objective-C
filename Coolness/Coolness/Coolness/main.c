@@ -10,13 +10,10 @@
 
 int main(int argc, const char * argv[])
 {
-    int i = 0;
-
-    while (i < 12) {
+    int i;
+    for (i = 0; i < 12; i++) {
         printf("%d, Jeffron is kewl\n", i);
-        i++;
-    }
-    
+    }    
     return 0;
 }
 
