@@ -8,16 +8,16 @@
 
 #include <stdio.h>
 
-// Here is the declaration of the struct Person
-struct Person {
+// Here is the declaration of the type Person
+typedef struct {
     float heightInMeters;
     int weightInKilos;
-};
+} Person;
 
 
 int main(int argc, const char * argv[])
 {
-    struct Person person;
+    Person person;
     person.weightInKilos = 96;
     person.heightInMeters = 1.8;
     printf("Person weighs %i kilograms.\n", person.weightInKilos);
