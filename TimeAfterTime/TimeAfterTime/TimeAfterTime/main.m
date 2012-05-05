@@ -14,7 +14,7 @@ int main(int argc, const char * argv[])
     @autoreleasepool {
         
         NSDate *now = [NSDate date];
-        NSLog(@"The new date lives at %p", now);
+        NSLog(@"The new date lives at %@", now);
     }
     return 0;
 }
