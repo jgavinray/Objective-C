@@ -13,10 +13,13 @@ int main(int argc, const char * argv[])
     int i;
     for (i = 99; i >= 0; i--) {
         printf("%d\n", i);
+        if ( i % 5 == 0 ) {
+            printf("Found one!\n");
+        }
+        else {
+                
+        }
         i = i - 2;
-//        if ( i == i / 5 ) {
-//            printf("Found one!");
-//        }
     }
 
     
