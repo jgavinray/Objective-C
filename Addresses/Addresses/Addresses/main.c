@@ -15,6 +15,8 @@ int main(int argc, const char * argv[])
     printf("i stores its value at %p\n", addressOfI);
     *addressOfI = 89;
     printf("Now i is %d\n", i);
+    printf("An int is %zu bytes.\n", sizeof(int));
+    printf("A pointer is %zu bytes.\n", sizeof(int *));
     return 0;
 }
 
