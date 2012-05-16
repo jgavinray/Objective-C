@@ -21,12 +21,11 @@ int main(int argc, const char * argv[])
         // Create an array containing all three (nil terminates the list)
         NSArray *dateList = [NSArray arrayWithObjects:now, tomorrow, yesterday, nil];
         
-        // How many dates are there?
-        NSLog(@"There are %lu dates", [dateList count]);
-              
-        // Print a couple
-        NSLog(@"The first date is %@", [dateList objectAtIndex:0]);
-        NSLog(@"The third date is %@", [dateList objectAtIndex:2]);
+        NSInteger dateCount = [dateList count];
+        for (int i = 0; i < dateCount; i++) {
+            NSDate *d = [dateList objectAtIndex:i];
+            NSLog(@"Date located in array location %d: %@", i, d);  
+        }
         
         
     }
