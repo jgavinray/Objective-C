@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Chapter 14 Challenge' target in the 'Chapter 14 Challenge' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
