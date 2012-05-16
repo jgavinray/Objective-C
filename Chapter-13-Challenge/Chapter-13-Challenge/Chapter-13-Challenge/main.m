@@ -13,12 +13,12 @@ int main(int argc, const char * argv[])
 
     @autoreleasepool {
         
-        NSTimeZone *timezone = [NSTimeZone systemTimeZone];
-        BOOL isDaylight = [timezone isDaylightSavingTime];
-        if (isDaylight == 1) {
-            NSLog(@"Your computer is in a daylight savings zone.");
+        NSTimeZone *today = [NSTimeZone systemTimeZone];
+        BOOL Daylight = [today isDaylightSavingTime];
+        if (Daylight == 1 ) {
+            NSLog(@"Your computer is in a Daylight savings time zone");
         } else {
-            NSLog(@"Your computer is NOT in a daylight savings zone.");
+            NSLog(@"Your computer is NOT in a Daylight savings time zone");
         }
         
     }
