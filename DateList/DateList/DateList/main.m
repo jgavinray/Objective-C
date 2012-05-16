@@ -1,6 +1,6 @@
 //
 //  main.m
-//  Chapter 14 Challenge
+//  DateList
 //
 //  Created by J. Ray on 5/16/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
@@ -13,9 +13,7 @@ int main(int argc, const char * argv[])
 
     @autoreleasepool {
         
-        NSHost *name = [NSHost currentHost];
-        NSString *local = [name localizedName];
-        NSLog(@"%@", local);
+        
         
     }
     return 0;
