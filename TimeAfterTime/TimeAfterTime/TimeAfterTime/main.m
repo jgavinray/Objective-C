@@ -13,6 +13,10 @@ int main(int argc, const char * argv[])
 
     @autoreleasepool {
         
+        NSTimeZone *today = [NSTimeZone systemTimeZone];
+        NSLog(@"%@ this machine is currently in daylight savings time!", today);
+//      Still need to figure out how to convert today using isDaylightSavingTime method.
+        
         NSDate *now = [NSDate date];
         NSLog(@"The new date lives at %@", now);
         double seconds = [now timeIntervalSince1970];
