@@ -21,10 +21,8 @@ int main(int argc, const char * argv[])
         // Create an array containing all three (nil terminates the list)
         NSArray *dateList = [NSArray arrayWithObjects:now, tomorrow, yesterday, nil];
         
-        NSInteger dateCount = [dateList count];
-        for (int i = 0; i < dateCount; i++) {
-            NSDate *d = [dateList objectAtIndex:i];
-            NSLog(@"Date located in array location %d: %@", i, d);  
+        for (NSDate *d in dateList) {
+            NSLog(@"Date: %@", d);  
         }
         
         
