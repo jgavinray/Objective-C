@@ -1,0 +1,236 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86D89FEE15655C4C0017F12C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86D89FED15655C4C0017F12C /* Foundation.framework */; };
+		86D89FF115655C4C0017F12C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D89FF015655C4C0017F12C /* main.m */; };
+		86D89FF515655C4C0017F12C /* Chapter_15_Challenge_B.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 86D89FF415655C4C0017F12C /* Chapter_15_Challenge_B.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		86D89FE715655C4C0017F12C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				86D89FF515655C4C0017F12C /* Chapter_15_Challenge_B.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		86D89FE915655C4C0017F12C /* Chapter-15-Challenge-B */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Chapter-15-Challenge-B"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86D89FED15655C4C0017F12C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		86D89FF015655C4C0017F12C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		86D89FF315655C4C0017F12C /* Chapter-15-Challenge-B-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Chapter-15-Challenge-B-Prefix.pch"; sourceTree = "<group>"; };
+		86D89FF415655C4C0017F12C /* Chapter_15_Challenge_B.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Chapter_15_Challenge_B.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86D89FE615655C4C0017F12C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86D89FEE15655C4C0017F12C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86D89FDE15655C4C0017F12C = {
+			isa = PBXGroup;
+			children = (
+				86D89FEF15655C4C0017F12C /* Chapter-15-Challenge-B */,
+				86D89FEC15655C4C0017F12C /* Frameworks */,
+				86D89FEA15655C4C0017F12C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86D89FEA15655C4C0017F12C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86D89FE915655C4C0017F12C /* Chapter-15-Challenge-B */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86D89FEC15655C4C0017F12C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86D89FED15655C4C0017F12C /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86D89FEF15655C4C0017F12C /* Chapter-15-Challenge-B */ = {
+			isa = PBXGroup;
+			children = (
+				86D89FF015655C4C0017F12C /* main.m */,
+				86D89FF415655C4C0017F12C /* Chapter_15_Challenge_B.1 */,
+				86D89FF215655C4C0017F12C /* Supporting Files */,
+			);
+			path = "Chapter-15-Challenge-B";
+			sourceTree = "<group>";
+		};
+		86D89FF215655C4C0017F12C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86D89FF315655C4C0017F12C /* Chapter-15-Challenge-B-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86D89FE815655C4C0017F12C /* Chapter-15-Challenge-B */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86D89FF815655C4C0017F12C /* Build configuration list for PBXNativeTarget "Chapter-15-Challenge-B" */;
+			buildPhases = (
+				86D89FE515655C4C0017F12C /* Sources */,
+				86D89FE615655C4C0017F12C /* Frameworks */,
+				86D89FE715655C4C0017F12C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chapter-15-Challenge-B";
+			productName = "Chapter-15-Challenge-B";
+			productReference = 86D89FE915655C4C0017F12C /* Chapter-15-Challenge-B */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86D89FE015655C4C0017F12C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 86D89FE315655C4C0017F12C /* Build configuration list for PBXProject "Chapter-15-Challenge-B" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 86D89FDE15655C4C0017F12C;
+			productRefGroup = 86D89FEA15655C4C0017F12C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86D89FE815655C4C0017F12C /* Chapter-15-Challenge-B */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86D89FE515655C4C0017F12C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86D89FF115655C4C0017F12C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		86D89FF615655C4C0017F12C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		86D89FF715655C4C0017F12C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		86D89FF915655C4C0017F12C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chapter-15-Challenge-B/Chapter-15-Challenge-B-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		86D89FFA15655C4C0017F12C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chapter-15-Challenge-B/Chapter-15-Challenge-B-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86D89FE315655C4C0017F12C /* Build configuration list for PBXProject "Chapter-15-Challenge-B" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86D89FF615655C4C0017F12C /* Debug */,
+				86D89FF715655C4C0017F12C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86D89FF815655C4C0017F12C /* Build configuration list for PBXNativeTarget "Chapter-15-Challenge-B" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86D89FF915655C4C0017F12C /* Debug */,
+				86D89FFA15655C4C0017F12C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86D89FE015655C4C0017F12C /* Project object */;
+}

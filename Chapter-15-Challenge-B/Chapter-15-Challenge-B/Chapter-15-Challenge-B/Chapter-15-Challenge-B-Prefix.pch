@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Chapter-15-Challenge-B' target in the 'Chapter-15-Challenge-B' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

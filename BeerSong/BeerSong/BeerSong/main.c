@@ -25,7 +25,7 @@ void singTheSong(int numberOfBottles)
 int main(int argc, const char * argv[])
 {
 
-    singTheSong(5);
+    singTheSong(9000000);
     return 0;
 }
 
